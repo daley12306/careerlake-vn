@@ -150,7 +150,7 @@ services:
       - QUARKUS_DATASOURCE_PASSWORD=nessie
       - NESSIE_SERVER_AUTHENTICATION_ENABLED=false
     depends_on:
-      postgres:
+      postgres-nessie:
         condition: service_healthy
       minio:
         condition: service_healthy
@@ -189,7 +189,9 @@ services:
     depends_on:
       minio:
         condition: service_healthy
-      postgres:
+      postgres-nessie:
+        condition: service_healthy
+      airflow-webserver:
         condition: service_healthy
       nessie:
         condition: service_healthy
