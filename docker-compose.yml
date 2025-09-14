@@ -186,15 +186,6 @@ services:
     ports:
       - "8080:8080"
       - "7077:7077"
-    depends_on:
-      minio:
-        condition: service_healthy
-      postgres-nessie:
-        condition: service_healthy
-      airflow-webserver:
-        condition: service_healthy
-      nessie:
-        condition: service_healthy
     environment:
       SPARK_MODE: master
       SPARK_MASTER_HOST: spark-master
