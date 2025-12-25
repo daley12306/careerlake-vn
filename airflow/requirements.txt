@@ -1,0 +1,14 @@
+pyspark==3.5.4
+apache-airflow-providers-apache-spark
+minio
+requests
+beautifulsoup4
+pandas
+pyarrow
+s3fs
+fsspec
+transformers 
+sentence-transformers 
+scikit-learn 
+unidecode 
+numpy
