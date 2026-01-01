@@ -1,8 +1,6 @@
 # Vietnam Labor Market Data Lakehouse Project
 
-![Lakehouse Architecture](https://img.shields.io/badge/Architecture-Data%20Lakehouse-blue)  
-![Tech Stack](https://img.shields.io/badge/Tech-Apache%20Spark%20%7C%20Iceberg%20%7C%20Dremio%20%7C%20Superset-orange)  
-![License](https://img.shields.io/badge/License-MIT-green)
+![Lakehouse Architecture](https://img.shields.io/badge/Architecture-Data%20Lakehouse-blue)  ![Tech Stack](https://img.shields.io/badge/Tech-Apache%20Spark%20%7C%20Iceberg%20%7C%20Dremio%20%7C%20Superset-orange)  ![License](https://img.shields.io/badge/License-MIT-green)
 
 ## Project Overview
 
